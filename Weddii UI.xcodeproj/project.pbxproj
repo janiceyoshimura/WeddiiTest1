@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D006794C1F1D6F9C002F50B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D006794B1F1D6F9C002F50B4 /* AppDelegate.swift */; };
-		D006794E1F1D6F9C002F50B4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D006794D1F1D6F9C002F50B4 /* FirstViewController.swift */; };
-		D00679501F1D6F9C002F50B4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D006794F1F1D6F9C002F50B4 /* SecondViewController.swift */; };
+		D00679501F1D6F9C002F50B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D006794F1F1D6F9C002F50B4 /* LoginViewController.swift */; };
 		D00679531F1D6F9C002F50B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00679511F1D6F9C002F50B4 /* Main.storyboard */; };
 		D00679551F1D6F9C002F50B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00679541F1D6F9C002F50B4 /* Assets.xcassets */; };
 		D00679581F1D6F9C002F50B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00679561F1D6F9C002F50B4 /* LaunchScreen.storyboard */; };
 		D00679631F1D6F9C002F50B4 /* Weddii_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00679621F1D6F9C002F50B4 /* Weddii_UITests.swift */; };
 		D006796E1F1D6F9C002F50B4 /* Weddii_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D006796D1F1D6F9C002F50B4 /* Weddii_UIUITests.swift */; };
+		D006799E1F1EB1C4002F50B4 /* Login Background.png in Resources */ = {isa = PBXBuildFile; fileRef = D006799D1F1EB1C4002F50B4 /* Login Background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,7 @@
 /* Begin PBXFileReference section */
 		D00679481F1D6F9C002F50B4 /* Weddii UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weddii UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D006794B1F1D6F9C002F50B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D006794D1F1D6F9C002F50B4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D006794F1F1D6F9C002F50B4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D006794F1F1D6F9C002F50B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D00679521F1D6F9C002F50B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D00679541F1D6F9C002F50B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D00679571F1D6F9C002F50B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		D00679691F1D6F9C002F50B4 /* Weddii UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weddii UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D006796D1F1D6F9C002F50B4 /* Weddii_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weddii_UIUITests.swift; sourceTree = "<group>"; };
 		D006796F1F1D6F9C002F50B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D006799D1F1EB1C4002F50B4 /* Login Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login Background.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				D006794B1F1D6F9C002F50B4 /* AppDelegate.swift */,
-				D006794D1F1D6F9C002F50B4 /* FirstViewController.swift */,
-				D006794F1F1D6F9C002F50B4 /* SecondViewController.swift */,
+				D006794F1F1D6F9C002F50B4 /* LoginViewController.swift */,
 				D00679511F1D6F9C002F50B4 /* Main.storyboard */,
+				D006799D1F1EB1C4002F50B4 /* Login Background.png */,
 				D00679541F1D6F9C002F50B4 /* Assets.xcassets */,
 				D00679561F1D6F9C002F50B4 /* LaunchScreen.storyboard */,
 				D00679591F1D6F9C002F50B4 /* Info.plist */,
@@ -235,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D006799E1F1EB1C4002F50B4 /* Login Background.png in Resources */,
 				D00679581F1D6F9C002F50B4 /* LaunchScreen.storyboard in Resources */,
 				D00679551F1D6F9C002F50B4 /* Assets.xcassets in Resources */,
 				D00679531F1D6F9C002F50B4 /* Main.storyboard in Resources */,
@@ -262,9 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00679501F1D6F9C002F50B4 /* SecondViewController.swift in Sources */,
+				D00679501F1D6F9C002F50B4 /* LoginViewController.swift in Sources */,
 				D006794C1F1D6F9C002F50B4 /* AppDelegate.swift in Sources */,
-				D006794E1F1D6F9C002F50B4 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +511,7 @@
 				D00679741F1D6F9C002F50B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D00679751F1D6F9C002F50B4 /* Build configuration list for PBXNativeTarget "Weddii UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +520,7 @@
 				D00679771F1D6F9C002F50B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D00679781F1D6F9C002F50B4 /* Build configuration list for PBXNativeTarget "Weddii UIUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +529,7 @@
 				D006797A1F1D6F9C002F50B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
